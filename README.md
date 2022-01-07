@@ -19,7 +19,7 @@ Next, update Composer from the Terminal:
 
 Once the packaage has installed, the final step is to add the service provider. Open `config/app.php`, and add a new item to the providers array.
 
-    'F2m2\Apidocs\ApidocsServiceProvider',
+    'softprodev\Apidocs\ApidocsServiceProvider',
 
 Run the `artisan` command from the Terminal to see the new `apidocs` command.
 
@@ -33,7 +33,7 @@ Create a copy of the API Docs Config by running this `artisan` command:
 #### Laravel 4.2
 
 See installation:
-https://github.com/f2m2/apidocs/tree/1.0.0
+https://github.com/softprodev/apidocs/tree/1.0.0
 
 
 Notes
@@ -72,8 +72,4 @@ Below is a docBlock example.
         // Display User
     }
 
-License
--------
-
-See [LICENSE](LICENSE.md) file.
 
